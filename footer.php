@@ -1,5 +1,4 @@
 <?php
-
-        echo 'Hello world';
-
+//Get content of footer template
+echo file_get_contents("footertemplate.html");
 ?>
