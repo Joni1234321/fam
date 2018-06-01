@@ -1,0 +1,19 @@
+body{
+    background-color:#020811;
+    color: #b3bdcc;
+}
+
+.contact{
+    position: block;
+    bottom: 0px;
+    width: 90%;
+    margin: auto;
+
+    background-color: grey;
+    color: black;   
+}
+
+.contact h2, h3{
+    padding-left: 10px;
+    color: black;
+}

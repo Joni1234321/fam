@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <?php include "header.php";?>
