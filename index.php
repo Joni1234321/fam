@@ -7,10 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
   </head>
   <body>
-    <?php include (dirname(__DIR__)."/templates/header.php");?>
+    <?php include ("templates/header.php");?>
 
 
 
-    <?php include (dirname(__DIR__)."/templates/footer.php");?>
+    <?php include ("/templates/footer.php");?>
   </body>
 </html>
