@@ -3,6 +3,9 @@ body{
     background-color:white;
     color: black;
 }
+bold {
+    font-style: bold;
+}
 
 /*HEADER START*/
 .navbar ul{
@@ -37,7 +40,6 @@ body{
 .contact{
     position: block;
     bottom: 0px;
-    width: 90%;
     margin: auto;
 
     background-color: grey;
@@ -47,5 +49,11 @@ body{
 .contact h2, h3{
     padding-left: 10px;
     color: black;
+}
+
+.version {
+    font-size: 70%;
+    float: right;
+    display: block;
 }
 /*FOOTER END*/
