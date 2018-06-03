@@ -43,17 +43,23 @@ bold {
     margin: auto;
 
     background-color: grey;
-    color: black;   
+    color: black;  
 }
 
 .contact h2, h3{
     padding-left: 10px;
     color: black;
 }
-
 .version {
+    position: relative;
     font-size: 70%;
-    float: right;
+    padding-right: 10px;
+}
+.version p {
+
+    bottom: 0;
+    margin-bottom: 0px;
     display: block;
+    float: right;
 }
 /*FOOTER END*/
