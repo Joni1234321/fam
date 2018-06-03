@@ -1,12 +1,45 @@
 body{
-    background-color:#020811;
-    color: #b3bdcc;
+    font-family: Spectral;
+    background-color:white;
+    color: black;
+}
+bold {
+    font-style: bold;
 }
 
+/*HEADER START*/
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+.navbar li {
+ float: left;
+}
+
+.navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.navbar a:hover {
+    background-color: #d68266;
+}
+/*HEADER END*/
+
+
+
+/*FOOTER START*/
 .contact{
     position: block;
     bottom: 0px;
-    width: 90%;
     margin: auto;
 
     background-color: grey;
@@ -17,3 +50,10 @@ body{
     padding-left: 10px;
     color: black;
 }
+
+.version {
+    font-size: 70%;
+    float: right;
+    display: block;
+}
+/*FOOTER END*/

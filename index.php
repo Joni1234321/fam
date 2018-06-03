@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
