@@ -1,0 +1,55 @@
+/*HEADER START*/
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+.navbar li {
+ float: left;
+}
+
+.navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.navbar a:hover {
+    background-color: #d68266;
+}
+/*HEADER END*/
+
+
+/*FOOTER START*/
+.contact{
+    position: block;
+    bottom: 0px;
+    margin: auto;
+
+    background-color: grey;
+    color: black;  
+}
+
+.contact h2, h3{
+    padding-left: 10px;
+    color: black;
+}
+.version {
+    position: relative;
+    font-size: 70%;
+    padding-right: 10px;
+}
+.version p {
+
+    bottom: 0;
+    margin-bottom: 0px;
+    display: block;
+    float: right;
+}
+/*FOOTER END*/
