@@ -1,8 +1,25 @@
 /*HEADER START*/
-.navbar ul{
-    list-style-type: none;
+.icon {
+    height: 32px;
+}
+.icon p{
+    margin: 0px 0px 0px 0px;
+    padding-left: 40px;
+}
+.icon icon{
+    float: left;
+}
+
+.navbar {
+    position: sticky;
+    width: 100%;
     margin: 0;
+}
+
+.navbar ul{
     padding: 0;
+
+    list-style-type: none;
     overflow: hidden;
     background-color: red;
 }
@@ -23,6 +40,7 @@
 .navbar a:hover {
     background-color: #d68266;
 }
+
 /*HEADER END*/
 
 
